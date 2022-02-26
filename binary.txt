@@ -1,0 +1,18 @@
+def binarysearch(numbers,low,high,i):
+    if(high>=low):
+        mid = low+(high-low)//2
+        if(numbers[mid]==i):
+            return mid
+        elif(numbers[mid]>i):
+            return binarySearch(numbers,low,mid-1,i)
+        else:
+            return binarySearch(numbers,mid+1,high,i)
+    else:
+        return -1
+numbers=[1,24,32,67,98,105,555]  
+i= int(input("Enter the element to search:"))
+result=binarySearch(numbers,0,len(numbers)-1,i)
+if (result!=-1):
+    print("Number",i, "found in the given list")
+else:
+    print("Number",i,"doesnt exist in the given list")
