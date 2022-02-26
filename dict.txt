@@ -1,0 +1,6 @@
+personal_details = {
+'Adarsh' : [ 23, 'Hyderabad' ],
+'Joel': [ 24, 'Chennai' ],
+'Perumandla' : [ 25 , 'Mumbai' ]
+}
+personal_details  
