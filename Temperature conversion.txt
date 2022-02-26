@@ -1,0 +1,3 @@
+t= float(input("Enter Temparature in Centigrade :"))
+F= (t*9/5)+32   #temperature coversion from Centigrade to Fahrenheit
+print("Temparature in Fahrenheit:",F)
