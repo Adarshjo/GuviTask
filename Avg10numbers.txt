@@ -1,0 +1,8 @@
+i=0
+sum=0
+while(i<10):
+    n=int(input("Enter a number:"))
+    i=i+1
+    sum=sum+n
+avg=sum/10
+print("Average of 10 numbers is",avg)
