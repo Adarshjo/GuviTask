@@ -1,0 +1,4 @@
+a=[44,57,88,23,12,67,33]
+position= int(input("enter the position to be deleted:"))
+a.pop(position)
+print(a)
