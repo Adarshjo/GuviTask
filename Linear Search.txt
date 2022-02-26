@@ -1,0 +1,11 @@
+a=[5,9,3,99,55,11,77,40]
+flag=0
+length= len(a)
+n= int(input("Enter the number to search:"))
+for i in range(length):
+    if(a[i]==n):
+        print("number found and is at position:",i)
+        flag=1
+        break
+if(flag==0):
+    print("Number doesnt exist in the list")
