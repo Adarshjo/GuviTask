@@ -1,0 +1,6 @@
+a=[44,57,88,23,12,67,33]
+large=a[0]
+for i in range(len(a)):
+    if(a[i]>large):
+        large=a[i]
+print(large)
